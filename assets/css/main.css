@@ -1659,3 +1659,27 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* GitHub Button */
+		.github-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+	font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.github-button i {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.github-button:hover {
+    background-color: #444;
+}
